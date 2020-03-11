@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'smartlivingapi'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3dcd0c5da82447c6ba252302cca80d3b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_81c7e4c2152a4008b98b7e911843cfca }}
         package: ${{env.DOTNET_ROOT}}/myapp 
